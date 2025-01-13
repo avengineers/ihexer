@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: bac234a
+_src_path: .
+copyright_year: '2025'
+documentation: true
+email: karsten.guenther@kamg.de
+full_name: Avengineers
+github_username: avengineers
+main_branch: develop
+open_source_license: MIT
+package_name: ihexer
+project_name: Intel HEX Tools
+project_short_description: Parse, view and diff files in Intel HEX format.
+project_slug: ihexer
+
