@@ -1,3 +1,6 @@
-# Changelog
+# CHANGELOG
 
-<!--next-version-placeholder-->
+
+
+## v0.0.0 (2025-01-13)
+
