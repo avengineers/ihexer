@@ -1,13 +1,13 @@
 pipeline:
-    install:
-        - step: CreateVEnv
-          module: pypeline.steps.create_venv
-          config:
-              bootstrap_script: .bootstrap/bootstrap.py
-    build:
-        - step: RunPreCommit
-          file: steps/build.py
-        - step: RunPytest
-          file: steps/build.py
-        - step: GenerateDocs
-          file: steps/build.py
+  install:
+    - step: CreateVEnv
+      module: pypeline.steps.create_venv
+      config:
+        bootstrap_script: .bootstrap/bootstrap.py
+  build:
+    - step: RunPreCommit
+      file: steps/build.py
+    - step: RunPytest
+      file: steps/build.py
+    - step: GenerateDocs
+      file: steps/build.py

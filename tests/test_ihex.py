@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from ihex.ihex import IntelHexParser, IntelHexPrinter, IntelHexSegment
+from ihexer.ihexer import IntelHexParser, IntelHexPrinter, IntelHexSegment
 from tests.utils import get_tests_data_file
 
 

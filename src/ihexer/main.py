@@ -6,10 +6,10 @@ import typer
 from py_app_dev.core.exceptions import UserNotificationException
 from py_app_dev.core.logging import logger, setup_logger, time_it
 
-from ihex import __version__
-from ihex.ihex import IntelHexDiff, IntelHexParser, IntelHexPrinter
+from ihexer import __version__
+from ihexer.ihexer import IntelHexDiff, IntelHexParser, IntelHexPrinter
 
-package_name = "ihex"
+package_name = "ihexer"
 
 app = typer.Typer(name=package_name, help="Intel HEX utils.", no_args_is_help=True)
 

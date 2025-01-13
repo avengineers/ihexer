@@ -1,7 +1,7 @@
 """
-Used to run ihex from the command line when run from this repository.
+Used to run ihexer from the command line when run from this repository.
 
-This is required because ihex module is not visible when running from the repository.
+This is required because ihexer module is not visible when running from the repository.
 """
 
 import runpy
@@ -9,4 +9,4 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, Path(__file__).parent.parent.absolute().as_posix())
-runpy.run_module("ihex.main", run_name="__main__")
+runpy.run_module("ihexer.main", run_name="__main__")
