@@ -15,6 +15,7 @@ def test_intel_hex_parser(tmp_path: Path) -> None:
     assert intel_hex
     assert intel_hex.start_address == 0x1000
     assert intel_hex.end_address == 0x100F
+    assert intel_hex.length == 16
     assert len(intel_hex.segments) == 1
     assert intel_hex.segments[0].start == 0x1000
     assert intel_hex.segments[0].end == 0x100F
