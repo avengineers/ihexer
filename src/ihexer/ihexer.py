@@ -33,6 +33,11 @@ class IntelHex:
     end_address: int
     segments: List[IntelHexSegment]
 
+    @property
+    def length(self) -> int:
+        """Return the total length of all segments."""
+        return sum(segment.length for segment in self.segments)
+
     def get_content(self) -> str:
         """Return the hex content of all segments as a single long string."""
         hex_content = []
