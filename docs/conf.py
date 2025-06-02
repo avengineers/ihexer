@@ -20,7 +20,7 @@ for path in ["src", "tests"]:
 project = "Intel HEX Tools"
 copyright = "2025, Avengineers"
 author = "Avengineers"
-release = "0.0.0"
+release = "0.1.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
