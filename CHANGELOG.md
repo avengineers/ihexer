@@ -2,6 +2,13 @@
 
 
 
+## v0.3.0 (2025-07-02)
+
+### Feature
+
+* feat: add ihexer to poetry scripts ([`7ea036a`](https://github.com/avengineers/ihexer/commit/7ea036aceff804eba87c825aae7b3ed3732a6c51))
+
+
 ## v0.2.0 (2025-06-02)
 
 ### Feature
