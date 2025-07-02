@@ -18,6 +18,9 @@ packages = [
     { include = "ihexer", from = "src" },
 ]
 
+[tool.poetry.scripts]
+ihexer = "ihexer.main:main"
+
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/avengineers/ihexer/issues"
 "Changelog" = "https://github.com/avengineers/ihexer/blob/develop/CHANGELOG.md"
