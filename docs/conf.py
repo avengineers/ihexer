@@ -69,7 +69,6 @@ traceability_render_relationship_per_item = True
 
 # The suffix of source filenames.
 source_suffix = [
-    ".rst",
     ".md",
 ]
 
