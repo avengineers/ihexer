@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ihexer"
-version = "0.3.1"
+version = "0.3.2"
 description = "Parse, view and diff files in Intel HEX format."
 authors = ["Avengineers <karsten.guenther@kamg.de>"]
 license = "MIT"

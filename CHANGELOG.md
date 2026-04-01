@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.3.2 (2026-04-01)
+
+### Bug Fixes
+
+- Relax the typer dependency
+  ([`5fe3ee3`](https://github.com/avengineers/ihexer/commit/5fe3ee370a432edabbfa7a807c3fbff6988e019d))
+
+
 ## v0.3.1 (2025-08-08)
 
 ### Bug Fixes
