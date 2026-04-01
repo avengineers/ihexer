@@ -28,7 +28,7 @@ ihexer = "ihexer.main:main"
 [tool.poetry.dependencies]
 python = "^3.10"
 py-app-dev = "^2.1"
-typer = "^0.16"
+typer = "^0"
 intelhex = "^2.3"
 
 [tool.poetry.group.dev.dependencies]
